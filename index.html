@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Designer Portfolio</title>
+    <meta name="description" content="Raghav - AI & ML Enthusiast. Computer Science student specializing in Artificial Intelligence and Machine Learning.">
+    <meta name="keywords" content="AI, Machine Learning, Portfolio, Computer Science, Python, Deep Learning">
+    <meta name="author" content="Raghav Vijayaraj">
+    <title>Raghav Vijayaraj - AI & ML Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="nav-container">
-            <a href="#home" class="logo">Portfolio</a>
+        <div class="container navbar-container">
+            <div class="logo">
+                <span class="logo-text">Raghav</span>
+            </div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#work" class="nav-link">Work</a></li>
-                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#timeline" class="nav-link">Education</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -27,91 +35,364 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Creative Designer</h1>
-            <p class="hero-subtitle">Crafting beautiful digital experiences</p>
-            <a href="#work" class="cta-button">View My Work</a>
+        <div class="stars"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Raghav</span>
+                </h1>
+                <h2 class="hero-subtitle typing-animation">AI & ML Enthusiast</h2>
+                <p class="hero-description">Building intelligent solutions with code and creativity</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="animated-circle"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
         </div>
     </section>
 
-    <!-- Work Samples Section -->
-    <section id="work" class="work">
+    <!-- About Section -->
+    <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">Work Samples</h2>
-            <div class="work-grid">
-                <div class="work-item">
-                    <div class="work-image-placeholder"></div>
-                    <h3>Project One</h3>
-                    <p class="work-category">Branding</p>
-                    <p class="work-description">A modern branding project showcasing creative design principles and visual storytelling.</p>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-text">
+                        A passionate Computer Science student specializing in AI & ML with strong communication and organizational skills,
+                        seeking opportunities to apply knowledge in real-world projects.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Education</span>
+                            <span class="detail-value">B.E. CSE (AI & ML)</span>
+                            <span class="detail-sub">K S Rangasamy College of Technology</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">CGPA</span>
+                            <span class="detail-value">7.8 / 10</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Coimbatore, India</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="work-item">
-                    <div class="work-image-placeholder"></div>
-                    <h3>Project Two</h3>
-                    <p class="work-category">UI/UX Design</p>
-                    <p class="work-description">User-centered design approach for a mobile application with intuitive interface.</p>
-                </div>
-                <div class="work-item">
-                    <div class="work-image-placeholder"></div>
-                    <h3>Project Three</h3>
-                    <p class="work-category">Web Design</p>
-                    <p class="work-description">Responsive web design that combines aesthetics with functionality and performance.</p>
-                </div>
-                <div class="work-item">
-                    <div class="work-image-placeholder"></div>
-                    <h3>Project Four</h3>
-                    <p class="work-category">Visual Design</p>
-                    <p class="work-description">Creative visual design project exploring color theory and composition techniques.</p>
+                <div class="about-image">
+                    <div class="profile-placeholder">
+                        <svg viewBox="0 0 200 200" class="profile-svg">
+                            <circle cx="100" cy="80" r="50" class="profile-circle"/>
+                            <path d="M 50 180 Q 50 140 100 140 Q 150 140 150 180" class="profile-circle"/>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume">
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">Resume</h2>
-            <div class="resume-content">
-                <div class="resume-column">
-                    <h3 class="resume-subtitle">Experience</h3>
-                    <div class="resume-item">
-                        <h4 class="position">Senior Designer</h4>
-                        <p class="company">Design Studio Co.</p>
-                        <p class="date">2022 - Present</p>
-                        <p class="description">Led design initiatives for major client projects, mentored junior designers, and established design systems.</p>
-                    </div>
-                    <div class="resume-item">
-                        <h4 class="position">UI/UX Designer</h4>
-                        <p class="company">Tech Startup Inc.</p>
-                        <p class="date">2020 - 2022</p>
-                        <p class="description">Designed user interfaces for mobile and web applications, conducted user research, and improved conversion rates.</p>
-                    </div>
-                    <div class="resume-item">
-                        <h4 class="position">Junior Designer</h4>
-                        <p class="company">Creative Agency</p>
-                        <p class="date">2018 - 2020</p>
-                        <p class="description">Assisted with branding projects, created marketing materials, and learned design best practices.</p>
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Technical Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Machine Learning</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Deep Learning</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">C Programming</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="resume-column">
-                    <h3 class="resume-subtitle">Skills</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">UI Design</span>
-                        <span class="skill-tag">UX Design</span>
-                        <span class="skill-tag">Branding</span>
-                        <span class="skill-tag">Web Design</span>
-                        <span class="skill-tag">Visual Design</span>
-                        <span class="skill-tag">Figma</span>
-                        <span class="skill-tag">Adobe XD</span>
-                        <span class="skill-tag">Photoshop</span>
-                        <span class="skill-tag">Illustrator</span>
-                        <span class="skill-tag">Typography</span>
-                        <span class="skill-tag">Color Theory</span>
-                        <span class="skill-tag">Prototyping</span>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Microsoft Office</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">TensorFlow / PyTorch</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Data Analysis</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <a href="#" class="download-resume">Download Full Resume (PDF)</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 300 200">
+                                <rect width="300" height="200" class="placeholder-bg"/>
+                                <circle cx="150" cy="100" r="40" class="placeholder-icon"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Project One</h3>
+                        <p class="project-description">
+                            A cutting-edge machine learning project demonstrating advanced techniques in neural networks and data processing.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">ML</span>
+                        </div>
+                        <a href="#" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 300 200">
+                                <rect width="300" height="200" class="placeholder-bg"/>
+                                <circle cx="150" cy="100" r="40" class="placeholder-icon"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Deep Learning Model</h3>
+                        <p class="project-description">
+                            Implemented a sophisticated deep learning model for image classification with state-of-the-art accuracy.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">CNN</span>
+                            <span class="tag">Deep Learning</span>
+                        </div>
+                        <a href="#" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 300 200">
+                                <rect width="300" height="200" class="placeholder-bg"/>
+                                <circle cx="150" cy="100" r="40" class="placeholder-icon"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Data Analysis Dashboard</h3>
+                        <p class="project-description">
+                            Created an interactive dashboard for real-time data visualization and analysis using modern frameworks.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Data Analysis</span>
+                            <span class="tag">Visualization</span>
+                        </div>
+                        <a href="#" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Achievements</h2>
+            <div class="experience-content">
+                <div class="experience-text">
+                    <h3 class="experience-title">Undergraduate Student & Developer</h3>
+                    <p class="experience-description">
+                        As an undergraduate student specializing in AI & ML, I bring practical experience through academic projects
+                        and a strong foundation in computer science fundamentals. My journey has equipped me with:
+                    </p>
+                    <ul class="experience-list">
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>Strong teamwork and collaborative project management skills</span>
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>Excellent communication abilities with technical and non-technical teams</span>
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>Problem-solving mindset with focus on real-world applications</span>
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>Continuous learning and adaptation to emerging technologies</span>
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>Project delivery with attention to code quality and efficiency</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="experience-stats">
+                    <div class="stat-box">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Skills</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Dedication</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Timeline -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <h2 class="section-title">Education Journey</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">10th Grade</h3>
+                        <p class="timeline-score">100%</p>
+                        <p class="timeline-description">Achieved perfect score, demonstrating strong foundational knowledge</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">12th Grade</h3>
+                        <p class="timeline-score">78.4%</p>
+                        <p class="timeline-description">Specialized in science and technology stream</p>
+                    </div>
+                </div>
+                <div class="timeline-item active">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">B.E. CSE (AI & ML)</h3>
+                        <p class="timeline-score">7.8 / 10</p>
+                        <p class="timeline-description">K S Rangasamy College of Technology - Currently pursuing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <h2 class="section-title">Beyond Code</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13 6.06V3h-2v3.06C6.767 6.41 3 10.209 3 15c0 6.075 4.925 11 11 11s11-4.925 11-11c0-4.791-3.767-8.59-8-8.94zM12 20c-2.761 0-5-2.239-5-5s2.239-5 5-5 5 2.239 5 5-2.239 5-5 5zm3.5-9c-.828 0-1.5.672-1.5 1.5S14.672 14 15.5 14s1.5-.672 1.5-1.5S16.328 11 15.5 11z"/>
+                        </svg>
+                    </div>
+                    <h3 class="hobby-title">Fitness & Nutrition</h3>
+                    <p class="hobby-description">
+                        Passionate about maintaining physical health and exploring nutrition science to optimize performance.
+                    </p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 6h-2v9c0 .55-.45 1-1 1h-1c-.55 0-1-.45-1-1V7c0-.55-.45-1-1-1h-1c-.55 0-1 .45-1 1v8c0 .55-.45 1-1 1h-1c-.55 0-1-.45-1-1V4c0-.55-.45-1-1-1H8c-.55 0-1 .45-1 1v12c0 .55-.45 1-1 1H5c-.55 0-1-.45-1-1V3c0-.55-.45-1-1-1H2c-.55 0-1 .45-1 1v16c0 1.1.9 2 2 2h17c1.1 0 2-.9 2-2V7c0-.55-.45-1-1-1z"/>
+                        </svg>
+                    </div>
+                    <h3 class="hobby-title">Video Games</h3>
+                    <p class="hobby-description">
+                        Enjoy gaming as a way to unwind, while appreciating the complex algorithms and AI behind game development.
+                    </p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h4l3 4 3-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12h-4v4h-2v-4H7V9h4V5h2v4h4v5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="hobby-title">Continuous Learning</h3>
+                    <p class="hobby-description">
+                        Always exploring new technologies, research papers, and industry trends to stay ahead in the AI/ML domain.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -119,31 +400,90 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
-            <p class="contact-intro">I'd love to hear about your project. Feel free to reach out!</p>
-            <div class="contact-methods">
-                <a href="mailto:your.email@example.com" class="contact-method">
-                    <span class="method-icon">✉</span>
-                    <span class="method-text">Email</span>
-                </a>
-                <a href="https://linkedin.com" target="_blank" class="contact-method">
-                    <span class="method-icon">💼</span>
-                    <span class="method-text">LinkedIn</span>
-                </a>
-                <a href="https://dribbble.com" target="_blank" class="contact-method">
-                    <span class="method-icon">🎯</span>
-                    <span class="method-text">Dribbble</span>
-                </a>
-                <a href="https://twitter.com" target="_blank" class="contact-method">
-                    <span class="method-icon">𝕏</span>
-                    <span class="method-text">Twitter</span>
-                </a>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p class="contact-intro">
+                        I'm always interested in hearing about new projects and opportunities. Feel free to reach out!
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <span class="contact-icon">✉</span>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <a href="mailto:raghavvijayaraj17@gmail.com">raghavvijayaraj17@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">☎</span>
+                            <div>
+                                <p class="contact-label">Phone</p>
+                                <a href="tel:+918300939793">+91 8300939793</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <p class="contact-label">Location</p>
+                                <p>Coimbatore, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <p class="social-label">Follow Me</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" title="LinkedIn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-icon" title="GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-icon" title="Twitter">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 9-1 11-4 2-3 2-7 2-7a4.5 4.5 0 00-1.4-3.14z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2026 Your Portfolio. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2026 Raghav Vijayaraj. All rights reserved. Crafted with passion for AI & ML.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
